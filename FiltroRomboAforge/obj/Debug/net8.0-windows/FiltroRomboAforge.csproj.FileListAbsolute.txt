@@ -1,8 +1,3 @@
-C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.csproj.AssemblyReference.cache
-C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\App.g.cs
-C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge_MarkupCompile.cache
-C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge_MarkupCompile.lref
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\FiltroRomboAforge.exe
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\FiltroRomboAforge.deps.json
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\FiltroRomboAforge.runtimeconfig.json
@@ -13,12 +8,18 @@ C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\AForge.Math.dll
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\AForge.Vision.dll
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\bin\Debug\net8.0-windows\SixLabors.ImageSharp.dll
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge_MarkupCompile.cache
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge_MarkupCompile.lref
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.g.resources
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.AssemblyInfoInputs.cache
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.AssemblyInfo.cs
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.sourcelink.json
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRo.EB29A160.Up2Date
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\FiltroRomboAforge.dll
 C:\Users\lenovo\source\repos\FiltroRomboAforge\FiltroRomboAforge\obj\Debug\net8.0-windows\refint\FiltroRomboAforge.dll

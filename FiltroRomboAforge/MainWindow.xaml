@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FiltroRomboAforge"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="750" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -21,7 +21,7 @@
             <Button Content="Solo Rombos Grandes" Click="BtnSoloGrandes_Click" Margin="5" Width="120"/>
             <Label x:Name="LblConteo" Content="Rombos: 0" Margin="15,0" VerticalAlignment="Center" FontWeight="Bold"/>
         </StackPanel>
-
+        
         <!-- Contenedor principal de imagenes -->
         <Grid Grid.Row="1" Margin="10">
             <Grid.ColumnDefinitions>
@@ -60,5 +60,6 @@
                 </Grid>
             </Border>
         </Grid>
+
     </Grid>
 </Window>
