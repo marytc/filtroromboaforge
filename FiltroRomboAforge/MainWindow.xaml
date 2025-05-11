@@ -1,0 +1,64 @@
+﻿<Window x:Class="FiltroRomboAforge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiltroRomboAforge"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Barra de controles superior -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="10" HorizontalAlignment="Center" Height="50">
+            <Button Content="Selecciona Imagen" Click="BtnCargarImagen_Click" Margin="5" Width="120"/>
+            <Button Content="Solo Verdes" Click="BtnSoloVerdes_Click" Margin="5" Width="120"/>
+            <Button Content="Quitar Ruido Pimienta" Click="BtnRuidoPimienta_Click" Margin="5" Width="120"/>
+            <Button Content="Quitar Conexiones" Click="BtnQuitarConexiones_Click" Margin="5" Width="120"/>
+            <Button Content="Solo Rombos Grandes" Click="BtnSoloGrandes_Click" Margin="5" Width="120"/>
+            <Label x:Name="LblConteo" Content="Rombos: 0" Margin="15,0" VerticalAlignment="Center" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- Contenedor principal de imagenes -->
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="10"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Panel izquierdo - Imagen original -->
+            <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Content="Imagen Original" HorizontalAlignment="Center" FontWeight="Bold" Margin="5"/>
+                    <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Image x:Name="ImgOriginal" Stretch="None"/>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+
+            <!-- Panel derecho - Imagen resultante -->
+            <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" CornerRadius="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Content="Imagen Resultante" HorizontalAlignment="Center" FontWeight="Bold" Margin="5"/>
+                    <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <Image x:Name="ImgResultado" Stretch="None"/>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>
